@@ -15,7 +15,9 @@ export default class JoueurStar extends React.Component {
                     {this.props.prenom}<br></br>{this.props.nom}
                 </div>
                 <div className="mesStats">
-                    <b>{this.props.points}</b> pts/m - <b>{this.props.passed}</b> pd/m - <b>{this.props.rebonds}</b> rb/m
+                Heigh :<b> {this.props.taille}"{this.props.taille2}</b> <br></br>
+                    Weight : <b>{this.props.poids}</b> pounds  <br></br>
+                    Position : <b>{this.props.position}</b>
                 </div>
                 <div className="espace"></div>
                 
