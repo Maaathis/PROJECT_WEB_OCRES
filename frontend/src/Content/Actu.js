@@ -49,7 +49,7 @@ export default class Actu extends React.Component {
             number : 1,
             city : "Miami",
             team : "Heat",
-            win : 32,
+            win : 34,
             loose : 21
         }];
         return(
