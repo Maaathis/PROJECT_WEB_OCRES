@@ -44,6 +44,14 @@ export default class Actu extends React.Component {
             score2 : 108
         },
         ];
+
+        let Classement = [{
+            number : 1,
+            city : "Miami",
+            team : "Heat",
+            win : 32,
+            loose : 21
+        }];
         return(
             
             <Container fluid className="championFond">
@@ -88,25 +96,239 @@ export default class Actu extends React.Component {
                     </Col>
                 </Row>
                 <Row className="separer2"></Row>
-                <Row className="classement">
+                <Row className="Eastern">
+                    <Col xs={12}>Eastern Conference</Col>
+                </Row>
+                <Row className="classementEst">
                     <Col xs={1}></Col>
                     <Col xs={2}>
-                        <EquipeClassement/>
+                        <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
                     </Col>
                     <Col xs={2}>
-                        Equipe2
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
                     </Col>
                     <Col xs={2}>
-                        Equipe3
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
                     </Col>
                     <Col xs={2}>
-                        Equipe4
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
                     </Col>
                     <Col xs={2}>
-                        Equipe5
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={1}></Col>
+                    <Col xs={1}></Col>
+                    <Col xs={2}>
+                        <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={1}></Col>
+                    <Col xs={1}></Col>
+                    <Col xs={2}>
+                        <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
                     </Col>
                     <Col xs={1}></Col>
                 </Row>
+                <Row className="Western">
+                    <Col xs={12}>Western Conference</Col>
+                </Row>
+                <Row className="classementWest">
+                    <Col xs={1}></Col>
+                    <Col xs={2}>
+                        <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={1}></Col>
+                    <Col xs={1}></Col>
+                    <Col xs={2}>
+                        <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={1}></Col>
+                    <Col xs={1}></Col>
+                    <Col xs={2}>
+                        <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={2}>
+                    <EquipeClassement   number={Classement[0].number}
+                                            city={Classement[0].city}
+                                            team={Classement[0].team}
+                                            win={Classement[0].win}
+                                            loose={Classement[0].loose}/>
+                    </Col>
+                    <Col xs={1}></Col>
+                </Row>
+                <Row className="separer"></Row>
             </Container>
         );
     }

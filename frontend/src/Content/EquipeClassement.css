@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Poppins-black;
+    src: url("../polices/Poppins-Black.ttf");
+}
+
+.equipe{
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-width: 0.2vw;
+    border-color: white;
+}
+
+.class{
+    font-size: 2.4vw;
+    padding-top: 5%;
+    font-family: Poppins-black;
+}
+
+.nom{
+    font-size: 1.4vw;
+}
