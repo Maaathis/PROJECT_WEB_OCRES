@@ -46,7 +46,7 @@ export default class Actu extends React.Component {
         ];
 
         let Classement = [{
-            number : 1,
+            number : 2,
             city : "Miami",
             team : "Heat",
             win : 34,
