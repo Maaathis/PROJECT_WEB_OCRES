@@ -1,8 +1,6 @@
 import React from 'react';
 import './JoueurStar.css';
 
-import {Row} from 'react-bootstrap';
-import {Col} from 'react-bootstrap';
 
 export default class JoueurStar extends React.Component {
     

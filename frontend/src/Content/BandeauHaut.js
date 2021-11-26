@@ -13,7 +13,7 @@ export default class Nav extends React.Component {
                 <Col xs={3}>
                 <img src={Logo} alt="imgLogo" className="logo"></img>
                 </Col>
-                <Col xs={1}></Col>
+                <Col xs={3}></Col>
                 <Col xs={2}>
                 <a className="titreNav" href="/">Accueil</a>
                 </Col>
@@ -21,10 +21,7 @@ export default class Nav extends React.Component {
                 <a className="titreNav" href="/actu">Actu</a>
                 </Col>
                 <Col xs={2}>
-                <a className="titreNav" href="#">Team</a>
-                </Col>
-                <Col xs={2}>
-                <a className="titreNav" href="#">CTA</a>
+                <a className="titreNav" href="/team">Team</a>
                 </Col>
                 
             </Row>

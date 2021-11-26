@@ -1,0 +1,12 @@
+.ballon{
+        background-image: url("../images/BallonBackground.png");
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+        background-position: top left;
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+
+.separer{
+    margin: 10%;
+}
